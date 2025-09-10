@@ -1,0 +1,20 @@
+{
+  "id": "working-hour-heatmap",
+  "name": "Working hour heatmap",
+  "version": "0.1.0",
+  "manifestVersion": 1,
+  "minSupVersion": "8.0.0",
+  "description": "A Super Productivity plugin that visualizes daily working hours as a heatmap, similar to Github's contribution graph.",
+  "author": "Your Name",
+  "homepage": "https://github.com/yourusername/your-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/your-plugin.git"
+  },
+  "permissions": [],
+  "hooks": ["taskComplete", "taskUpdate", "anyTaskUpdate"],
+  "iFrame": true,
+  "sidePanel": false,
+  "isSkipMenuEntry": false,
+  "icon": "icon.svg"
+}
